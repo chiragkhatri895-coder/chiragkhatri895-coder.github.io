@@ -167,7 +167,12 @@ nav {
     position: relative;
     overflow: hidden;
 }
-
+.ryzox-bg {
+background-image: url("ryzox.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+    }
 .card:hover {
     border-color: var(--primary);
     background: rgba(255, 49, 49, 0.02);
@@ -285,7 +290,6 @@ top: -40px;
 margin-left: 82%;
 }
 
-
 </style>
 </head>
 <body>
@@ -309,12 +313,17 @@ margin-left: 82%;
     <div class="grid-container">
         
         <a href="https://github.com/Sumit282698/Ryzox" target="_blank" class="card-link">
-            <div class="card">
-                <h3>Ryzox <img class="icon" src="ryzox.png" alt="image-ryzox"></h3>
-                <p>A feature-rich Discord bot designed for server moderation and community entertainment.</p>
-                <div class="badge-group">
-                    <span class="badge">Discord.py</span>
-                    <span class="badge">JSON</span>
+            <div class="card ryzox-bg">
+            <a href="https://github.com/Sumit282698/Ryzox" target="_blank" class="card-link">
+<div class="card ryzox-bg">
+<h3>Ryzox</h3>
+<p>A feature-rich Discord bot designed for server moderation and community entertainment.</p>
+<div class="badge-group">
+<span class="badge">Discord.py</span>
+<span class="badge">JSON</span>
+</div>
+</div>
+            </a>
                 </div>
             </div>
         </a>
